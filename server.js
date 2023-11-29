@@ -116,7 +116,7 @@ app.use(adminRoutes);
 app.use(bookRoutes);
 app.use(authRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = 80;
 
 app.listen(PORT, () => {
   console.log(`server is running at http://localhost:${PORT}`);
